@@ -8,6 +8,9 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.no-wrap{
+    flex-wrap: nowrap;
+}
 
 .row {
   display: flex;
@@ -43,6 +46,10 @@
 .c-2 {
   flex: 0 0 16.66667%;
   max-width: 16.66667%;
+}
+.c-2-4{
+  flex: 0 0 20%;
+  max-width: 20%;
 }
 
 .c-3 {
